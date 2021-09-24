@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Imagen"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Icon="assets/256.ico">
+        Title="MainWindow" Height="449" Width="800" Icon="assets/256.ico">
     <Grid>
         <Image x:Name="imagenImage" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="531" Source="assets/episodioIV.jpg"/>
         <TextBlock HorizontalAlignment="Left" Margin="585,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Height="33" Width="110" RenderTransformOrigin="0.652,0.456"><Run Text="Opacidad"/></TextBlock>
