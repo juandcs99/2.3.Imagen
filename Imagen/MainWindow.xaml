@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Imagen"
         mc:Ignorable="d"
-        Title="MainWindow" Height="449" Width="800" Icon="assets/256.ico">
+        Title="Imagenes" Height="449" Width="800" Icon="assets/256.ico">
     <Grid>
         <Image x:Name="imagenImage" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="531" Source="assets/episodioIV.jpg"/>
         <TextBlock HorizontalAlignment="Left" Margin="585,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Height="33" Width="110" RenderTransformOrigin="0.652,0.456"><Run Text="Opacidad"/></TextBlock>
-        <RadioButton x:Name="opacityAltaRadioButton" Content="Alta" HorizontalAlignment="Left" Margin="585,76,0,0" VerticalAlignment="Top" GroupName="opacity" Checked="opacityAltaRadioButton_Checked"/>
+        <RadioButton x:Name="opacityAltaRadioButton" IsChecked="true" Content="Alta" HorizontalAlignment="Left" Margin="585,76,0,0" VerticalAlignment="Top" GroupName="opacity" Checked="opacityAltaRadioButton_Checked"/>
         <RadioButton x:Name="opacityMediaRadioButton" Content="Media" HorizontalAlignment="Left" Margin="585,104,0,0" VerticalAlignment="Top" GroupName="opacity" Checked="opacityMediaRadioButton_Checked"/>
         <RadioButton x:Name="opacityBajaRadioButton" Content="Baja" HorizontalAlignment="Left" Margin="584,132,0,0" VerticalAlignment="Top" GroupName="opacity" Checked="opacityBajaRadioButton_Checked"/>
         <TextBlock HorizontalAlignment="Left" Margin="585,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Height="33" Width="110" RenderTransformOrigin="0.652,0.456" Text="Ajuste"/>
-        <RadioButton x:Name="fillRadioButton" Content="Relleno" HorizontalAlignment="Left" Margin="585,244,0,0" VerticalAlignment="Top" GroupName="stretch" Checked="fillRadioButton_Checked"/>
+        <RadioButton x:Name="fillRadioButton" IsChecked="true" Content="Relleno" HorizontalAlignment="Left" Margin="585,244,0,0" VerticalAlignment="Top" GroupName="stretch" Checked="fillRadioButton_Checked"/>
         <RadioButton x:Name="uniformRadioButton" Content="Uniforme" HorizontalAlignment="Left" Margin="585,270,0,0" VerticalAlignment="Top" GroupName="stretch" Checked="uniformRadioButton_Checked"/>
         <RadioButton x:Name="uniformToFillRadioButton" Content="Relleno uniforme" HorizontalAlignment="Left" Margin="584,297,0,0" VerticalAlignment="Top" GroupName="stretch" Checked="uniformToFillRadioButton_Checked"/>
         <RadioButton x:Name="noneRadioButton" Content="Sin ajuste" HorizontalAlignment="Left" Margin="585,323,0,0" VerticalAlignment="Top" GroupName="stretch" Checked="noneRadioButton_Checked" RenderTransformOrigin="0.498,-0.586"/>
